@@ -44,16 +44,18 @@ def main():
     clock = core.Clock()
     start_time = clock.getTime()
     duration = 60  # 设置变化幅度增大到0.5的持续时间为60秒
-    blink_frequency = 10  # 设置闪烁频率为每秒5次
+    blink_frequency = 10  # 设置闪烁频率为每秒10次
 
     while True:
         update_opacity(boxes, start_time, clock, blink_frequency, duration)
         draw_boxes(boxes, win)
 
         if 'escape' in event.getKeys():
+            print("实验被用户中止。")
             break
 
     win.close()
+    core.quit()
 
 
 if __name__ == '__main__':

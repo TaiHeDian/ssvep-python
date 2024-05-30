@@ -88,7 +88,8 @@ venv.bak/
 # Cython debug symbols
 cython_debug/
 
-# PyCharm
+# IDE
+.vscode/
 .idea/
 out/
 *.iml
