@@ -96,3 +96,8 @@ out/
 
 # LSP config files
 pyrightconfig.json
+
+# Temporary Files
+!/test/
+!/ref/
+!/data/
