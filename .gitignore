@@ -98,6 +98,6 @@ out/
 pyrightconfig.json
 
 # Temporary Files
-!/test/
-!/ref/
-!/data/
+test/
+ref/
+log/
